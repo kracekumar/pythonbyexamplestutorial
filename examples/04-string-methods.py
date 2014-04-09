@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 """
-Write a program to display the peom The Road Not Taken by Robert Frost.
+Write a program to display the poem The Road Not Taken by Robert Frost.
 
 Two roads diverged in a yellow wood,
 And sorry I could not travel both
@@ -31,14 +31,14 @@ And that has made all the difference.
 # Below is function definition
 def main():
     # Step 1
-    # Create variable named poem and store them.
-    # Add a new line to the poem and add author's name.
+    # Create variable named poem to store the poem.
+    # Add a new line to poem and add the author's name.
 
     #Step 2:
     # Find no of times word "I" is used in the poem
 
     #Step 3:
-    # Replace could not with couldn't
+    # Replace "could not" with "couldn't"
     pass
 
 
