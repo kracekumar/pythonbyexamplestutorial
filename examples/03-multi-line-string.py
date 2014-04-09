@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 """
-Write a program to display the peom The Road Not Taken by Robert Frost.
+Write a program to display the poem The Road Not Taken by Robert Frost.
 
 Two roads diverged in a yellow wood,
 And sorry I could not travel both
