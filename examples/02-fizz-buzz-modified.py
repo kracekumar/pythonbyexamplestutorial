@@ -1,15 +1,15 @@
 #! /usr/bin/env python
 
 """
-Write a program to print fizz, buzz or fizz buzz if one of the condition is meet.
+Write a program to print fizz, buzz or fizzbuzz if one of the conditions is meet.
 
-If the number is multiple of 3 print fizz, multiple of 5 print buzz and multiple
-of 3 and 5 print fizz buzz.
+If the number is a multiple of 3, print fizz; a multiple of 5, print buzz;
+and if a multiple of both 3 and 5, print fizzbuzz.
 """
 
 # Below is function definition
 def main():
-    # Create variable named no.
+    # Create variable named num.
     # HINT:
     # if cond:
     #     pass
