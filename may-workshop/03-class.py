@@ -26,14 +26,13 @@
 # and ContactInfo.
 
 
-# Create a new virtualenv and install requests inside it.
-
+# For the next exercise, create a new virtualenv and install requests inside it.
 
 # Create a new class called Twitter which will have two attributes url and
 # handle. Write a method called get_tweets which will make http request and get
 # latest tweets.
 
-# Add a class variable children to track of all objects created.
+# Add a class variable children to keep track of all objects created.
 
 
 
