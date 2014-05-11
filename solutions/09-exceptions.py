@@ -1,7 +1,8 @@
 #! /usr/bin/env python
+# -*- coding: utf-8 -*-
 
 """
-Write a program to display the poem The Road Not Taken by Robert Frost.
+Write a program to display the peom The Road Not Taken by Robert Frost.
 
 Two roads diverged in a yellow wood,
 And sorry I could not travel both
@@ -25,14 +26,21 @@ I shall be telling this with a sigh
 Somewhere ages and ages hence:
 Two roads diverged in a wood, and I—
 I took the one less traveled by,
-And that has made all the difference.
+And that has made all the difference
 """
 
-# Below is function definition
 def main():
-    # Create variable named poem and store them.
-    # Add a new line to the poem and add author's name.
-    pass
+    # Step 1
+    # Now open the file 'the-road-not-taken.txt' and try to load the file
+    try:
+        with open('road-not-taken.txt') as f:
+            for line in f    :
+                print line,
+    except IOError as e:
+        print e
+
+    # Step 2
+    # Read back the poem from the file and print it.
 
 
 # __name__ holds the name of the current module

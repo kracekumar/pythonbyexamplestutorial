@@ -1,7 +1,3 @@
-#! /usr/bin/env python
-
-"""
-Write a program to display the poem The Road Not Taken by Robert Frost.
 
 Two roads diverged in a yellow wood,
 And sorry I could not travel both
@@ -25,16 +21,4 @@ I shall be telling this with a sigh
 Somewhere ages and ages hence:
 Two roads diverged in a wood, and I—
 I took the one less traveled by,
-And that has made all the difference.
-"""
-
-# Below is function definition
-def main():
-    # Create variable named poem and store them.
-    # Add a new line to the poem and add author's name.
-    pass
-
-
-# __name__ holds the name of the current module
-if __name__ == "__main__":
-    main() # call main function
+And that has made all the difference

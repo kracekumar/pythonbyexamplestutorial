@@ -17,8 +17,15 @@ def main():
     #     pass
     # else:
     #     pass
-    pass
-
+    number = 23
+    if number % 15 == 0:
+        print "fizzbuzz"
+    elif number % 3 == 0:
+        print "fizz"
+    elif number % 5 == 0:
+        print "buzz"
+    else:
+        print ":-("
 
 # __name__ holds the name of the current module
 if __name__ == "__main__":
