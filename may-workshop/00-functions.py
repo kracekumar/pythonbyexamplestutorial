@@ -16,7 +16,7 @@
 
 # test
 
-# Combine map, reduce, sume.
+# Combine map, filter, sum.
 # Given a list of numbers, find all even numbers and find sum of squares
 
 # Test

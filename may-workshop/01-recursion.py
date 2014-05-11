@@ -4,7 +4,7 @@
 
 # Test
 
-# write a function which compute factorial of n, using recursion
+# write a function which will compute factorial of n, using recursion
 
 # Test
 

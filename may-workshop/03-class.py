@@ -18,8 +18,8 @@
 
 # Test is_valid_pincode
 
-# Create a new class ContactInfo which will attributes like phone_no, email.
-# phone_no can be null
+# Create a new class ContactInfo with attributes like phone_no, email.
+# phone_no can be None
 
 
 # Create a new class Customer which inherits from Person and composes of Address

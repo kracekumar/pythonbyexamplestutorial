@@ -3,7 +3,7 @@
 # Write a function which returns greeting message depending on usernames
 
 # Write a function which returns greeting message depending on usernames
-# and number of times greetings need to be printed
+# and number of times greetings needs to be printed
 
 # Python scopes locals(), globals(), nested functions.
 
@@ -15,7 +15,7 @@
 
 # Write a function called login which will take a parameter username.
 # Write a decorator called login_required which is on top of login.
-# login_decorator will look into listed of prefined username and
+# login_decorator will look into listed of predefined username and
 # return True or False
 
 
