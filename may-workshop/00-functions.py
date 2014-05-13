@@ -8,7 +8,7 @@
 
 # test
 
-# Given a list of numbers return list of cubes
+# Given a list of numbers return list of squares.
 
 # test
 
