@@ -85,9 +85,8 @@ def login_required(f):
             return False
     return wrapped
 
-
 @login_required
-def login(request, username):
+def login(username):
     print "login succeeded"
     return True
 
