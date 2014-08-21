@@ -1,0 +1,1 @@
+- Create a file `bowl.py` and create class `App` will contain all details about the app.
