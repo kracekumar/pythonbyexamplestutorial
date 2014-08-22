@@ -29,7 +29,7 @@ def serve_static(path):
                             content_type=mime_type,
                             content_length=filesize)
     except IOError:
-        return Response(status='400')
+        return Response(status='404')
 
 
 def render_template(template_name, app_name='', template_dir='', **context):
