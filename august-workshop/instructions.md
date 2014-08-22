@@ -48,3 +48,10 @@ in `framework.py`. `render_template` should return a response if template is fou
 - Add a method `extract_post_data(environemnt)` which extracts form data if `input CONTENT_TYPE is application/x-www-form-urlencoded'`.
 - Read `wsgi.input` and parse the form content using `cgi.parse_qs`. `self.body` should contain form data as dictionary.
 - If `input content is application/json` `extract_post_data` should handle it.
+
+#### Wtforms
+
+- Create `SimpleMultidict` in `framework.py` which has `getlist` method.
+- Make `request.body` uses it.
+- Create `RegistrationForm` with `username with 4 characters as minimum` and `email with minimum of 6 characters`.
+- Validate the form on Post, hook to new route `/post_form`.
