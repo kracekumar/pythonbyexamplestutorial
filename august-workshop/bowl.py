@@ -63,12 +63,17 @@ class Response(object):
                 ('Content-Length', self.content_length,)]
 
 
+class SimpleMultiDict(dict):
+    def getlist(self, key):
+        return self[key]
+
+
 class Request(object):
     def __init__(self, environment):
         self.path = environment.get('PATH_INFO')
         self.method = environment.get('REQUEST_METHOD')
         self.query_string = environment.get('QUERY_STRING')
-        self.body = {}
+        self.body = SimpleMultiDict()
         if self.method == 'POST':
             self.extract_post_data(environment)
 
@@ -76,7 +81,7 @@ class Request(object):
         if environment.get('CONTENT_TYPE') == 'application/x-www-form-urlencoded':
             input = environment.get('wsgi.input')
             size = int(environment.get('CONTENT_LENGTH'))
-            self.body = parse_qs(input.read(size))
+            self.body.update(parse_qs(input.read(size)))
             input.close()
 
 

@@ -1,7 +1,23 @@
 # -*- coding: utf-8 -*-
 from bowl import App, jsonify, render_template
+from wtforms import Form, StringField, validators
 
 app = App()
+
+
+class RegistrationForm(Form):
+    username = StringField('Username', [validators.Length(min=4, max=25)])
+    email = StringField('Email Address', [validators.Length(min=6, max=35)])
+
+
+def post_form(request):
+    form = RegistrationForm(request.body, data={'username': 'Krace'})
+    if form.validate() and request.method == 'POST':
+        print form.data
+        return "Done"
+    return str(form.data)
+
+app.add_route('/post_form', post_form, ['GET', 'POST'])
 
 
 def index(request):
