@@ -2,7 +2,7 @@
 
 import sys
 
-# Write a function which returns greeting message depending on usernames
+# Write a function which returns a greeting message depending on usernames
 
 
 def greeting(*names):
@@ -19,7 +19,7 @@ def test_greeting():
     assert "emacs" in res
 
 
-# Write a function which returns greeting message depending on usernames
+# Write a function which returns a greeting message depending on usernames
 # and number of times greetings needs to be printed
 
 def greeting_with_times(**kwargs):
@@ -40,8 +40,8 @@ def test_greeting_with_times():
 
 # Python scopes locals(), globals(), nested functions.
 
-# Write a function called cache which will cache factorial result.
-# When factorial is called with same number argument as previous call
+# Write a function called cache which will cache  factorial result.
+# When  factorial is called with same number argument as previous call
 # fetch result from cache.
 
 cached_results = {}
